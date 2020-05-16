@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: unset;
+  margin: 0 0.5rem;
+}
+a:hover {
+  transform: scale(1.5);
+}

@@ -1,0 +1,30 @@
+.main-container {
+  display: grid;
+  grid-template-rows: 1fr 9fr 1fr;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+}
+
+.item {
+  /* background-color: red; */
+  /* height: 100vh; */
+}
+
+.main {
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
